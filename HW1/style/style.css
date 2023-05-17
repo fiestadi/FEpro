@@ -1,0 +1,86 @@
+body{
+    display: grid;
+    scale: auto;
+    grid-template-areas: 'header header header'
+    'nav article adds'
+    'footer footer footer';
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 20% 1fr 30% ;
+    grid-gap:10px;
+    height: 100vh;
+    margin: 0 ;
+    padding: 10px;
+}
+ #mainheader{
+    grid-area:header;
+    background-color:white;
+}
+#mainArticle{
+    grid-area:article;
+    background-color: white;
+}
+#mainNav{
+
+    grid-area:nav;
+    color: brown;
+}
+#siteAdds{
+    grid-area:adds;
+    text-align: center;
+    color: brown;
+}
+#siteFooter{
+    grid-area:footer;
+    background-color: yellow;
+    text-align: center;
+     margin: 10px;
+    color:brown;
+     text-decoration: none;
+}
+.block:hover{
+        margin: 10px;
+        color:violet;
+        text-decoration: underline;
+} 
+h1,ul,h4,h3{
+text-align: center;
+color: brown;
+}
+.img{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+}
+li{
+text-align: left;
+}
+.kalendař{
+    margin:auto;
+    size: 20px;
+    color: black;
+text-align: center;
+}
+.month{
+    text-align:center;
+    font-size: 20px;
+    color:brown;
+}
+table,th,td{
+    margin:10px;
+    padding:5px;
+    width:20px;
+    height: 25px;
+    text-align:center;
+    font-size: 10px;
+    border:1px solid brown;
+    border-collapse: collapse;
+}
+th{
+    background-color:yellow;
+}
+.smaile{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+padding: 20px;
+}
